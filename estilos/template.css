@@ -6,10 +6,22 @@ body{
     font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
 }
 header{
+    /*background-image: url('../assets/imagens/gta6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;*/
     background-color: cadetblue;
     color: white;
     padding: 20px;
     text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    flex: 1;
+}
+.titulo{
+    flex: 5;
 }
 .conteudo{
     display: flex;
